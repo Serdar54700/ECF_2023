@@ -1,11 +1,11 @@
-<?php
+<?php5.2
 $page = "connexion"; 
 
 require('./assets/header.php');
 if(isset($_SESSION['user'])){
     header('location: ./index.php'); 
 }
-$allergies = getAllAllergie($bdd); 
+$allergies = getAllAllergie($bdd); s
 
 ?>
 
